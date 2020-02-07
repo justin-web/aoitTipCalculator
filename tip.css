@@ -34,3 +34,6 @@
 	font-size: 40px;
 	font-family: 'Teko', sans-serif;
 }
+#background {
+	background-image: url('pattern.png');
+}
