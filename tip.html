@@ -1,0 +1,42 @@
+<!Doctype html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="tip.css">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="tip.js"></script>
+  <title>Tip Calculator</title>
+</head>
+  <div id="header" class="sea">
+    <div id="logo">TipCalculator</div>
+  </div>
+
+<div id="background">
+<div id="container">
+  <div id="calculator">
+    <form id="calc">
+      <p id="meme">How much was your bill?
+        <p>
+          $ <input id="billamt" type="text" placeholder="Bill Amount">
+          <p id="howservice">How was your service?
+            <p>
+              <select id="serviceQual">
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="0.3">30&#37; &#45; Outstanding</option>
+            <option value="0.2">20&#37; &#45; Good</option>
+            <option value="0.15">15&#37; &#45; It was OK</option>
+            <option value="0.1">10&#37; &#45; Bad</option>
+            <option value="0.05">5&#37; &#45; Terrible</option>
+        </select>
+    </form>
+    <p id="people">People Sharing the Bill</p>
+    <input id="peopleamt" type="text" placeholder="Number of People"> people
+    <button type="button" id="calculate" onclick="calculateTip()">Calculate</button>
+  </div>
+  <div id="totalTip">
+    <sup>$</sup><span id="tip">0.00</span>
+    <small id="each">each</small>
+  </div>
+</div>
+<script type="text/javascript" src="tipcalculator.js"></script>
+</div>

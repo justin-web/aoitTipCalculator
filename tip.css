@@ -1,0 +1,36 @@
+.sea {
+	background-color: #0C6291;
+}
+#header {
+	height: 70px;
+	width: 500%;
+	margin-left: -8px;
+	margin-top: -8px;
+}
+#logo{
+	font-size: 50px;
+	font-style: left;
+	margin-top: 8px;
+	font-family: 'Teko', sans-serif;
+	color: white;
+}
+#tip {
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+	position: left;
+
+}
+#meme {
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+}
+
+#howservice {
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;	
+}
+
+#people {
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+}
